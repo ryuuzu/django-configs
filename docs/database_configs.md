@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Database Configurations
+title: Database Config Templates
 nav_order: 2
 ---
-# Database Configurations for Django Settings
+# Database Configuration Templates for Django Settings
 
 1. MySQL Database:
 

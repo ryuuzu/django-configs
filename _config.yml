@@ -7,5 +7,5 @@ github_username: ryuuzu
 
 url: https://github.ryuuzu.xyz/django-configs
 
-aux_links:
-    Template Repository: https://github.com/just-the-docs/just-the-docs-template
+# aux_links:
+#     Template Repository: https://github.com/just-the-docs/just-the-docs-template
