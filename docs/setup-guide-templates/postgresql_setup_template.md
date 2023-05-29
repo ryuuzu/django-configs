@@ -18,21 +18,21 @@ This guide will help you setup PostgreSQL for your server.
 2. Create a user in PostgreSQL with the following command.
 
     ```sql
-    CREATE USER ryuu WITH LOGIN PASSWORD 'abc123';
+    CREATE USER user_name WITH LOGIN PASSWORD 'abc123';
     ```
 
 3. Setup default encoding and locale for the user.
 
     ```sql
-    ALTER ROLE ryuu SET client_encoding TO 'utf8';
-    ALTER ROLE ryuu SET default_transaction_isolation TO 'read committed';
-    ALTER ROLE ryuu SET timezone TO 'UTC';
+    ALTER ROLE user_name SET client_encoding TO 'utf8';
+    ALTER ROLE user_name SET default_transaction_isolation TO 'read committed';
+    ALTER ROLE user_name SET timezone TO 'UTC';
     ```
 
 4. Create a database for the user and grant access to it.
 
     ```sql
-    CREATE DATABASE ryuu_site_db WITH OWNER ryuu;
-    GRANT ALL PRIVILEGES ON DATABASE ryuu_site_db TO ryuu;
+    CREATE DATABASE database_name WITH OWNER user_name;
+    GRANT ALL PRIVILEGES ON DATABASE database_name TO user_name;
     ```
 <!-- Copy to here -->
