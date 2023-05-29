@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Database Config Templates
-nav_order: 2
 ---
 # Database Configuration Templates for Django Settings
 

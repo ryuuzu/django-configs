@@ -1,7 +1,6 @@
 ---
 layout: default
 title: URL Configurations
-nav_order: 3
 ---
 
 # URL Configurations
