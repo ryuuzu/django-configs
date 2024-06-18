@@ -1,9 +1,9 @@
 ---
 layout: default
-title: URL Configurations
+title: Setting Configurations
 ---
 
-# URL Configurations
+# Setting Configurations
 
 The following are extra URL configurations that can be used in the `urls.py` file of your Django project.
 
